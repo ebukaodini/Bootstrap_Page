@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="color-scheme" content="light dark">
+	<meta name="theme-color" content="#000000"/>
+	<meta name="description" content="My App" />
+	
+	<title>MyApp</title>
+	<link rel="shortcut icon" href="resources/imgs/favicon.ico" type="image/x-icon">
+	<link rel="manifest" href="manifest.json">
+
+	<!-- load resources -->
+	<link rel="stylesheet" href="resources//styles/bootstrap.css">
+	<script src="resources/scripts/bootstrapplus.min.js"></script>
+	<!-- load libraries -->
+	<script src="lib/state.js"></script>
+	<script src="lib/page.js"></script>
+	<script src="lib/elements.js"></script>
+	<script src="lib/nav.js"></script>
+	<!-- load components -->
+	<script src="components/main.js"></script>
+	<script src="components/app.js"></script>
+	<script src="components/404.js"></script>
+	<script src="components/MyApp.js"></script>
+	<!-- load utilities -->
+
+</head>
+
+<body>
+
+	<!-- Require Javascript -->
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+
+	<!-- App Root -->
+	<app></app>
+
+	<script>window.addEventListener('DOMContentLoaded', () => main());</script>
+
+</body>
+</html>
